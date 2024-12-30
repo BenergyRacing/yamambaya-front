@@ -1,0 +1,71 @@
+:root {
+  --background-color: #E1E1E1;
+  --main-font-color: #000000;
+  --secound-font-color: #FFFFFF;
+  --main-button-color: #124A7E;
+
+  margin: 0 auto;
+  text-align: center;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #000000;
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: top;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.title {
+  color: var(--main-font-color);
+  font-weight: bold;
+  font-size: 26px !important;
+}
+
+.main-title {
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  margin-top: 28px;
+  margin-left: 10px;
+}
+
+.first-title {
+  margin-top: 0px !important;
+}
+
+.button-text {
+  color: var(--secound-font-color);
+  font-size: 20px;
+}
+
+.main-button {
+  background-color: var(--main-button-color);
+  width: 90vw;
+  border-radius: 28px;
+  padding: 15px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
